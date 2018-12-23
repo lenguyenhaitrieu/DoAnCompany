@@ -1,0 +1,21 @@
+.solution{
+    padding: 3% 0;
+    >h1,p{
+        text-align: center;
+    }
+    h1{
+        padding: 0 7rem;
+        font-size: 3rem;
+    }
+    .mySolution{
+        margin-top: 50px;
+        span{
+            font-size: 3rem;
+            font-weight: bold;
+            color: $color-orange;
+        }
+        h3{
+            padding-top: 20px;
+        }
+    }
+}

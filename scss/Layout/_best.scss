@@ -1,0 +1,30 @@
+.best{
+    padding: 3% 0;
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    
+    .myBest{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1{
+            text-align: center;
+            color: white;
+            letter-spacing: 5px;
+        }
+        button{
+            background-color: var(--btncolor);
+            border: none;
+            color: white;
+            padding: 10px 40px;
+            margin-right: 50px;
+            cursor: pointer;
+            &:hover{
+                border: none;
+            }
+        }
+    }
+}

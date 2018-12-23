@@ -1,0 +1,33 @@
+.myNav{
+    padding: 0 7rem;
+    text-transform: uppercase;
+    // position: fixed;
+    // z-index: 100;
+    // background-color: white;
+    // width: 100%;
+    .navbar-brand h1{
+        color: #868cac;
+        letter-spacing: 2px;
+    }
+    .navbar-brand .title{
+        color: var(--btncolor);
+    }
+    .navbar-nav{
+        .nav-item.active {
+            .nav-link{
+                color: var(--btncolor);
+            }
+        }
+        .nav-item .nav-link{
+            font-size: 1.1rem;
+            font-family: "Heltivica", sans-serif;
+        }
+    }
+    
+}
+.header-scroll{
+    background-color: white;
+}
+.header-scroll .navbar-nav .nav-item .nav-link{
+    color: black;
+}

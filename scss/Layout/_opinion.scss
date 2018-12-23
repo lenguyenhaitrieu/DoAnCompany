@@ -1,0 +1,24 @@
+.opinion{
+    padding: 3% 40px;
+    >h1,p{
+        text-align: center;
+    }
+    .opinion__content{
+        padding: 0 5rem;
+        padding-top: 50px;
+        .opinion__item{
+            padding: 0 50px 50px;
+            img{
+                margin: auto;
+                width: 150px;
+                border-radius: 50%;
+                border: 7px solid var(--btncolor);
+            }
+        }
+        .owl-dots{
+                span{
+                    background: $color-orange!important;
+                }  
+        }
+    }
+}

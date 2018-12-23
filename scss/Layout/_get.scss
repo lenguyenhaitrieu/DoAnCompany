@@ -1,0 +1,28 @@
+.get{
+    padding: 3% 10%;
+    &>h1,p{
+        text-align: center;
+    }
+    .underline{
+        width: 1000px;
+        height: 1px;
+        margin: auto;
+        background-color: $color-grey;
+        opacity: .2;
+        margin-top: $mg-5;
+    }
+    .get__content{
+        padding: 3% 0;
+        i{
+            font-size: $fs-5;
+            color: $color-orange;
+        }
+        h2{
+            padding: 20px 0;
+        }
+        .line{
+            border-right: 1px solid #e8e8e8;
+           
+        }
+    }
+}
